@@ -1,3 +1,7 @@
+
+function conversorDeDivisas() {
+
+
 const elegirMoneda =prompt('ingrese moneda a convertir a pesos arg (1) DOLAR - (2) EURO')
 const monto =parseInt(prompt('Ingrese monto a calcualar'))
 
@@ -17,3 +21,7 @@ switch(elegirMoneda){
             alert('valor de conversion es de ' + resultado2 + ' de pesos arg ' )
             break
 }
+}
+
+conversorDeDivisas()
+conversorDeDivisas()
